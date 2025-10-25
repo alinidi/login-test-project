@@ -1,0 +1,40 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+
+  h1 {
+    font-size: var(--fourth-size);
+    font-weight: 700;
+    line-height: 138%;
+    letter-spacing: 0.065em;
+    color: var(--first-color);
+    text-align: start;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+
+  button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 157%;
+    letter-spacing: 0.07em;
+    padding: 1.4rem 4rem;
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+  }
+
+  :first-child {
+    color: white;
+    background-color: var(--button-color);
+    width: 12.8rem;
+  }
+
+  :last-child {
+    color: var(--button-color);
+    width: 15.5rem;
+  }
+}

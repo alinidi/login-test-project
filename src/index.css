@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+html {
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+}
+
+:root {
+  --font-family: 'Montserrat', sans-serif;
+  --second-family: 'Helvetica', sans-serif;
+  --third-family: 'Open Sans', sans-serif;
+
+  --first-size: 1.4rem;
+  --second-size: 1.5rem;
+  --third-size: 2rem;
+  --fourth-size: 5.8rem;
+  --fifth-size: 1.6rem;
+
+  --first-color: #252b42;
+  --second-color: #737373;
+  --button-color: #ff685b;
+
+  background: #fff;
+  --line-color: #e74040;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-size: var(--third-size);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--second-color);
+  font-family: var(--third-family);
+  font-size: var(--second-size);
+}

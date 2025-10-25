@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 32.9rem;
+  box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
+  background: #fff;
+  padding: 3.5rem 4rem;
+
+  img {
+    width: 7.2rem;
+    height: auto;
+  }
+
+  span {
+    background: var(--line-color);
+    width: 5rem;
+    height: 0.2rem;
+  }
+
+  p {
+    color: var(--second-color);
+    font-size: var(--first-size);
+    line-height: 143%;
+    letter-spacing: 0.06em;
+  }
+}
+
+.header {
+  font-size: var(--fifth-size);
+  line-height: 150%;
+  letter-spacing: 0.095em;
+  font-weight: 700;
+}
