@@ -1,0 +1,24 @@
+.buttons {
+  display: flex;
+  gap: 1rem;
+
+  button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 157%;
+    letter-spacing: 0.07em;
+    padding: 1.4rem 4rem;
+    border: 1px solid var(--button-color);
+    border-radius: 5px;
+  }
+
+  :first-child {
+    color: white;
+    background-color: var(--button-color);
+  }
+
+  :last-child {
+    color: var(--button-color);
+    background-color: white;
+  }
+}

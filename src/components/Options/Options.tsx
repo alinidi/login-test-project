@@ -14,8 +14,8 @@ const options: CardProps[] = [
 export default function Options() {
   return (
     <div className={s.options}>
-      {options.map((option) => (
-        <Card source={option.source} title={option.title} />
+      {options.map((option, index) => (
+        <Card key={index} source={option.source} title={option.title} />
       ))}
     </div>
   );

@@ -20,6 +20,7 @@ html {
   --third-size: 2rem;
   --fourth-size: 5.8rem;
   --fifth-size: 1.6rem;
+  --six-size: 2.8rem;
 
   --first-color: #252b42;
   --second-color: #737373;
@@ -44,4 +45,17 @@ a {
   color: var(--second-color);
   font-family: var(--third-family);
   font-size: var(--second-size);
+}
+
+h1 {
+  font-size: var(--fourth-size);
+  font-weight: 700;
+  line-height: 138%;
+  letter-spacing: 0.065em;
+  color: var(--first-color);
+  text-align: start;
+
+  @media (max-width: 400px) {
+    font-size: var(--six-size);
+  }
 }

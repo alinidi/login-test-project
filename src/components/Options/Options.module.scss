@@ -1,6 +1,12 @@
 .options {
   width: 100%;
   display: flex;
-  margin: auto;
-  gap: 3rem;
+  margin: 0 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    justify-content: center;
+  }
 }

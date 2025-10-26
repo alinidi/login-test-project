@@ -2,9 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 2rem 7rem;
   border-bottom: 1px solid #000;
   padding-bottom: 19px;
+
+  @media (max-width: 768px) {
+    margin: 2rem 1rem;
+  }
 
   img {
     padding-top: 4px;
@@ -16,6 +20,10 @@
   align-items: center;
   gap: 6rem;
 
+  @media (max-width: 768px) {
+    gap: 1rem;
+  }
+
   button {
     border: 2px solid #ff685b;
     border-radius: 7px;
@@ -23,5 +31,10 @@
     color: var(--button-color);
     background: white;
     letter-spacing: 0.08em;
+
+    @media (max-width: 768px) {
+      font-size: var(--third-size);
+      padding: 0.6rem 2rem;
+    }
   }
 }
